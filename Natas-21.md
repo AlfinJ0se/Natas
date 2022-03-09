@@ -39,9 +39,4 @@ It is taking every key and value in $_REQUEST superglobal and assigning it into 
 $style = "background-color: ".$_SESSION["bgcolor"]."; text-align: ".$_SESSION["align"]."; font-size: ".$_SESSION["fontsize"].";";
 $example = "<div style='$style'>Hello world!</div>";
 ```
-
-We can basically send a post request with align=center&fontsize=100%&bgcolor=blue&**admin=1**
-
-and it will be assigned to $_SESSION[”admin”]=1 . So we will have a key : admin and its value : 1 .
-
-So the codintion on print_credentials will be satisfied and we can get the password for the next Level .
+We can basically send a post request with align=center&fontsize=100%&bgcolor=blue&**admin=1** and it will be assigned to $_SESSION[”admin”]=1 . So we will have a key : admin and its value : 1 .So the codintion on print_credentials will be satisfied and we can get the password for the next Level .
