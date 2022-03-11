@@ -2,8 +2,6 @@
 
 # Source :
 
- 
-
 ```php
 <?
 session_start();
@@ -24,8 +22,9 @@ if(array_key_exists("revelio", $_GET)) {
 ```
 
 If there is a get request to the application with revelio parameter set and $_SESSION[”admin”] = 1
-
 we will get the password . If $_SESSION[”admin”]=1 is not in our session file . we will be redirected to  / . But since its not using die() the next if(condition) will be executed and we can intercept that using burp or curl before the redirection occurs .
+
+## Request
 
 ```php
 curl -X GET [http://natas22.natas.labs.overthewire.org/?revelio=1](http://natas22.natas.labs.overthewire.org/?revelio=1) -u 'natas22:chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ'
