@@ -40,3 +40,9 @@ $style = "background-color: ".$_SESSION["bgcolor"]."; text-align: ".$_SESSI
 $example = "<div style='$style'>Hello world!</div>";
 ```
 We can basically send a post request with align=center&fontsize=100%&bgcolor=blue&**admin=1** and it will be assigned to $_SESSION[”admin”]=1 . So we will have a key : admin and its value : 1 .So the codintion on print_credentials will be satisfied and we can get the password for the next Level .
+
+You are an admin. The credentials for the next level are:
+```
+Username: natas22
+Password: chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ
+```
