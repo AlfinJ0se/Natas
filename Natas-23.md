@@ -19,5 +19,6 @@ Its checking if $_REQUEST[”passwd”] has the substring “iloveyou” and it 
 
 ```
 The credentials for the next level are:
-Username: natas24 Password: OsRmXFguozKpTZZ5X14zNO43379LZveg
+Username: natas24
+Password: OsRmXFguozKpTZZ5X14zNO43379LZveg
 ```
