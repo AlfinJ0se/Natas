@@ -27,11 +27,11 @@ This condition for checking passwd can be bypassed by passing an array in $_REQU
  ?passwd[]=
 
 ```
-**Warning**
+Warning
 : strcmp() expects parameter 1 to be string, array given in
-**/var/www/natas/natas24/index.php**
+/var/www/natas/natas24/index.php
 on line
-**23**
+23
 
 The credentials for the next level are:
 Username: natas25 
