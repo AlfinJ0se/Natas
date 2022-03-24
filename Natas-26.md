@@ -105,7 +105,7 @@ print base64_encode(serialize($o));
 ?>
 ```
 
-```php
+```
 Username : natas27
 Password : 55TBjpPZUUJgVP5b3BnbG6ON9uDPVzCJ
 ```
